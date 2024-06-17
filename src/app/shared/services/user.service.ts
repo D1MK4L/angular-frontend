@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, effect, inject, signal } from '@angular/core';
 import { environment } from 'src/environments/environment';
-import { Credentials, LoggedInUser, User } from '../interfaces/user';
+import { Credentials, LoggedInUser, User } from 'src/app/shared/interfaces/user';
 import { Router } from '@angular/router';
 import { jwtDecode } from 'jwt-decode';
 

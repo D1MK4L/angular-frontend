@@ -1,6 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
-import { gameData } from '../interfaces/data';
+import { gameData } from 'src/app/shared/interfaces/data';
 import { catchError, throwError } from 'rxjs';
 
 const GAME_DATA_API_URL = 'https://happy-moss-00cc46503.5.azurestaticapps.net/';

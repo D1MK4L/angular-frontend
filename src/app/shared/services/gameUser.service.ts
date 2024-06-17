@@ -1,7 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { Credentials } from '../interfaces/user';
 import { HttpClient } from '@angular/common/http';
 
 

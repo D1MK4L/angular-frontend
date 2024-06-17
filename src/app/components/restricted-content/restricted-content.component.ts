@@ -1,4 +1,4 @@
-import { Component, OnInit, inject,OnDestroy, HostListener} from '@angular/core';
+import { Component, OnInit, inject, HostListener} from '@angular/core';
 import { Subscription } from 'rxjs';
 import { gameData } from 'src/app/shared/interfaces/data';
 import { DataService } from 'src/app/shared/services/data.service';
