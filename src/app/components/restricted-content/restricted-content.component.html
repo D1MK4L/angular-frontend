@@ -1,0 +1,31 @@
+
+
+
+<div class="d-grid grid-cols-2 ">
+  <app-buggy-tools *ngIf="showIframe2"></app-buggy-tools>
+
+
+  <!-- <iframe *ngIf="showIframe2" src="" style=" width:100%; height:6vh; border: 4px solid purple"></iframe> -->
+  <div class="d-flex justify-content-between">
+
+    <app-crud-panel *ngIf="showIframe" src="" style="width: 35%; height: 75vh; border: 4px solid purple;"></app-crud-panel>
+
+    <!-- <iframe *ngIf="showIframe" src="" style="width: 35%; height: 75vh; border: 4px solid purple;"></iframe>  -->
+
+    <app-loading-component *ngIf="isLoading"></app-loading-component> 
+
+    <iframe src="https://happy-moss-00cc46503.5.azurestaticapps.net/" style="width: 65%; height: 75vh; border: 4px solid purple;" (load)="onIframeLoad()"
+    [hidden]="isLoading"></iframe>  
+
+  </div>
+</div>
+  
+
+  
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+.crud-panel {
+    max-height: 64vh; /* Set the maximum height for the panel */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    /* background-color: black; */
+  }

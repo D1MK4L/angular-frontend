@@ -1,0 +1,12 @@
+
+ <div class="d-flex justify-content-center mb-0" src="" style=" width:100%; height:7vh; border: 4px solid purple">
+    <div class="d-flex ">
+        <h5 class=" ms-1 mt-1 mb-0" style="color: purple">Buggy Admin Tools insert Tape and Press Play!</h5>
+        <button *ngIf="isLoggedIn" type="button" class="btn btn-primary btn-sm ms-5" (click)="onCreateClick()">Create</button>
+        <button *ngIf="isLoggedIn" type="button" class="btn btn-primary btn-sm ms-5" (click)="onReadButtonClick()" >Read</button>
+        <button *ngIf="isLoggedIn" type="button" class="btn btn-primary btn-sm ms-5" (click)="onUpdateClick()">Update</button>
+        <button *ngIf="isLoggedIn" type="button" class="btn btn-primary btn-sm ms-5" (click)="onDeleteClick()">Delete</button>      
+    </div>
+</div>   
+
+

@@ -1,0 +1,13 @@
+    <div>   
+       <table class="table">
+            <tbody>
+              <ng-container *ngFor="let user of gameUsernames">
+                <tr>
+                  <td class="json-entry">
+                    <pre>{{ user | json }}</pre>
+                  </td>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+    </div>

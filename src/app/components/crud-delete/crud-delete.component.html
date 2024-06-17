@@ -1,0 +1,29 @@
+<h4 class="d-flex justify-content-center">Delete</h4>
+
+<div class="d-flex justify-content-center">     
+    <div class="d-flex flex-column">
+        
+        <form class="d-flex flex-column w-40">
+            <label for="id">ID: </label>
+            <input type="text" id="id" [(ngModel)]="id" name="id" [ngModelOptions]="{standalone: true}"/>
+      
+            <label for="fname">Firstname: </label>
+            <input type="text" id="givenName" [(ngModel)]="givenName" [ngModelOptions]="{standalone: true}" readonly="readonly" style="background-color: grey;" />
+      
+            <label for="lname">Lastname: </label>
+            <input type="text" id="surName" [(ngModel)]="surName" [ngModelOptions]="{standalone: true}" readonly="readonly" style="background-color: grey;" />
+      
+            <label for="email">Email: </label>
+            <input type="email" id="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" readonly="readonly" style="background-color: grey;" />
+      
+            <label for="uname">Username: </label>
+            <input type="text" id="username" [(ngModel)]="username" [ngModelOptions]="{standalone: true}" readonly="readonly" style="background-color: grey;" />             
+        </form>
+
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary d-flex flex-column mt-3 w-15 me-2"(click)="onSubmit()">Delete User</button>
+            <button type="submit" class="btn btn-primary d-flex flex-column mt-3 w-15 ms-2" (click)="fetchUserData()">Fetch by ID</button>
+        </div>
+
+    </div>     
+</div>

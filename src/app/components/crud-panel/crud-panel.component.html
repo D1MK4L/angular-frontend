@@ -1,0 +1,13 @@
+<div class="d-grid grid-cols-2 " style="background-color: black">
+
+    <h5 class="mt-2 d-flex justify-content-center" style="color:purple">Crud Panel</h5>
+
+    <div class="crud-panel d-flex ms-3 justify-content-center" style="width: 92%; height: 65vh; border: 2px solid purple; background-color:green">
+        <app-crud-login *ngIf="!isLoggedIn"></app-crud-login>
+          <app-crud-create *ngIf="onCreateClick()"></app-crud-create>
+          <app-crud-read *ngIf="onReadClick()"></app-crud-read>
+          <app-crud-update *ngIf="onUpdateClick()"></app-crud-update>
+          <app-crud-delete *ngIf="onDeleteClick()"></app-crud-delete>                    
+    </div>
+</div>  
+

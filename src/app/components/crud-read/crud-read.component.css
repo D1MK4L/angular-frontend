@@ -1,0 +1,14 @@
+pre {
+    background-color: green; /* Set the background color to green */
+    color: white; /* Optionally set the text color to white for better contrast */
+    margin: 0;
+    font-family: monospace;
+    white-space: pre-wrap; /* Ensure the JSON content wraps within the cell */
+    word-break: break-all; /* Break words if necessary to prevent overflow */
+    padding: 8px; /* Add padding for better readability */
+    border-radius: 4px; /* Optional: Add border-radius for rounded corners */
+  }
+
+  .json-entry {
+    background-color: black; /* Set the background color to green */
+  }

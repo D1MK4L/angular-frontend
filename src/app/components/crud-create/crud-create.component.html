@@ -1,0 +1,21 @@
+<h4 class="d-flex justify-content-center">Create User</h4>
+
+<div class="d-flex justify-content-center">     
+    <div class="d-flex flex-column">        
+        <form (ngSubmit)="createUser()" class="d-flex flex-column w-40">
+            <label for="givenName">Given Name: </label>
+            <input type="text" id="givenName" [(ngModel)]="newUser.givenName" name="givenName" required />    
+
+            <label for="surName">Surname: </label>
+            <input type="text" id="surName" [(ngModel)]="newUser.surName" name="surName" required />    
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" [(ngModel)]="newUser.email" name="email" required />    
+
+            <label for="username">Username: </label>
+            <input type="text" id="username" [(ngModel)]="newUser.username" name="username" required />
+            
+            <button type="submit" class="btn btn-primary mt-3">Create User</button>
+        </form>
+    </div>     
+</div>
