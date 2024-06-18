@@ -125,7 +125,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://d1mk4l.github.io/angular-frontend/",
+            "repo": "https://github.com/D1MK4L/angular-frontend.git"
+          }
         }
       }
     }

@@ -101,7 +101,7 @@ export class RestrictedContentComponent implements OnInit{
     //   return;
     // }
     // console.log('Received message:', event.data, event);
-    if (event.origin !== 'https://happy-moss-00cc46503.5.azurestaticapps.net/') {
+    if (event.origin !== 'https://happy-moss-00cc46503.5.azurestaticapps.net') {
       console.warn('Origin not allowed:', event.origin);
       return;
     }

@@ -1,4 +1,5 @@
 export const environment = {
     production: true,
-    apiURL: 'https://CRUD-World-api.ddns.net',
+    apiURL: 'https://crudworld.azurewebsites.net'
+    // apiURL: 'https://CRUD-World-api.ddns.net',
 };
